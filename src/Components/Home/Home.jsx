@@ -23,7 +23,7 @@ const Home = () => {
     <section className="home">
       <div className="overlay"> </div>
       <video
-        src="https://cdn.pixabay.com/vimeo/716626158/waterfall-119045.mp4?width=1280&hash=8d449eb6db0500ff4c88dbe0c29370b6e2244825"
+        src="https://cdn.pixabay.com/vimeo/340670744/sea-24216.mp4?width=640&hash=f5d8caac458392ac811be5aaf088a820fbcb1fdb  "
         className="src"
         muted
         autoPlay

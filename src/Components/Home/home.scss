@@ -78,10 +78,12 @@
       background: var(--whiteColor);
       border: 10px;
       gap: 3rem;
+      background: var(--textColor);
+      opacity: 75%;
 
       label {
         display: block;
-        color: var(--textColor);
+        color: var(--whiteColor);
         padding-bottom: 10px;
         font-size: 13px;
         font-weight: 500;
@@ -92,9 +94,11 @@
       .label_total {
         justify-content: space-between;
         align-items: center;
+      
 
         h3{
-          color: var(--textColor);
+          color: var(--whiteColor);
+         
           padding-bottom: 10px;
         }
       

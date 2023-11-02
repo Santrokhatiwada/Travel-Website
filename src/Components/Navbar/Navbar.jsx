@@ -65,8 +65,12 @@ const showNav =() => {
 
 
       <button className='btn'>
-        <a href="#">BOOK NOW</a>
+        <a href="#">Sign In</a>
         </button>  
+        <button className='btn'>
+        <a href="#">Register</a>
+        </button>  
+
         </ul> 
 
         <div onClick={removeNav} className="closeNavbar">
