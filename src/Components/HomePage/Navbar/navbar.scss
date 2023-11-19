@@ -15,33 +15,51 @@
   --bodyColor: rgb(240, 240, 246);
   --cardBG: rgb(225, 225, 235);
 }
+.navBarSection{
+
 
 .header {
   position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between ;
-  background: var(--whiteColorDeam);
+  background:var(--whiteColor);
+ 
   width: 100%;
-  padding: 1 rem;
+  padding-left: 30px;
   z-index: 1000;
   box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
+  padding-right: 20px;
 
 
 
 .logo {
   color: var(--blackColor);
-  font-weight: 600;
+  font-weight: 400;
   cursor: pointer;
   align-items:center;
   justify-content: center;
+h1{
+
+  font-size: calc(1.375rem );
+  text-align: center;
 
   .icon{
+   
     font-size: 25px;
     color: var(--PrimaryColor);
     transform: translate(5px);
 
   }
+
+}
+
+}
+
+
+
+
+
 }
 
 @media screen and (max-width: 848px) {
@@ -79,14 +97,26 @@
         }
       }
  
-      .btn {
+      .WebBtn{
         margin-top: 1rem;
-        border-radius: 6rem;
-
-        a {
-          font-weight: 600;
-          color: var(--whiteColor);
+        background-color: var(--SecondaryColor);
+        border-radius: 20px;
+        padding:10px 10px 10px 10px;
+        box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+        background-color: rgba(104, 85, 224, 1);
+        transition: 0.4s;
+        
+        &:hover {
+          color: white;
+          box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+          background-color: rgb(29, 199, 218);
         }
+        
+        a{
+          z-index: index;;
+         color: white;
+        }
+      
       }
     }
 
@@ -98,6 +128,7 @@
       &:hover{
         color: var(--SecondaryColor);
       }
+      
     }
   }
 
@@ -159,12 +190,26 @@ top:7rem;
         }
       }
 
-.btn{
+.WebBtn{
   margin-left: 1rem;
-  a{
-    color: var(--whiteColor);
-    font-weight: 500;
+  background-color: var(--SecondaryColor);
+  border-radius: 20px;
+  padding:10px 10px 10px 10px;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+  background-color: rgba(104, 85, 224, 1);
+  transition: 0.4s;
+  
+  &:hover {
+    color: white;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+    background-color: rgb(99, 187, 196);
   }
+  
+  a{
+    z-index: index;;
+   color: white;
+  }
+
 }
 
     }

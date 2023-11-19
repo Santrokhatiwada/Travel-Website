@@ -48,7 +48,7 @@ const Footer =() => {
     <div className="footerIntro flex">
         <div  data-aos="fade-up" className="logoDiv">
             <a href="#" className="logo flex">
-                <MdOutlineTravelExplore className="icon" />Ghumna Jau.
+                <MdOutlineTravelExplore className="icon" />Ghumna Jam.
             </a>
         </div>
         <div   data-aos="fade-up" className="footerParagraph">

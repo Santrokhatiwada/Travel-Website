@@ -76,6 +76,9 @@ const Main = () => {
   },[])
 
   return (
+    <div className="all">
+
+
     <section className="main container section">
       <div   data-aos="fade-right" className="secTitle">
         <h3 className="title">Most Visited Destinations</h3>
@@ -125,6 +128,7 @@ DETAILS<BsClipboardCheck className="icon" />
         )}
       </div>
     </section>
+    </div>
   );
 };
 
